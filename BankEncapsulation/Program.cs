@@ -10,9 +10,9 @@
             
             var amountToDeposit = double.Parse(Console.ReadLine());
             
-            account.deposit(amountToDeposit);
+            account.Deposit(amountToDeposit);
             
-            Console.Write($"Thank you! Your balance is now {account.getBalance()}");
+            Console.Write($"Thank you! Your balance is now {account.GetBalance()}");
         }  
     }
 }

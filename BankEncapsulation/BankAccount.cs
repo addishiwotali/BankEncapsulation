@@ -11,13 +11,13 @@ public class BankAccount
     
     
     
-    public void deposit(double amount)
+    public void Deposit(double amount)
     {
-        balance = amount;
+        balance += amount;
     }
     
     
-     public double getBalance()
+     public double GetBalance()
      {
         return balance;
      }
